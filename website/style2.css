@@ -1,0 +1,126 @@
+body{
+    background-image: url(foto/blue-leather-cobalt-blue-texture-wallpaper-preview.jpg);
+    background-repeat: repeat;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+
+
+    justify-content: space-around;
+    padding: 00;
+    margin: 00;
+}
+
+a{
+text-decoration: none;
+color: white;
+font-size: 30px;
+width: 200px;
+height: 50px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 3px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: rgb(180, 0, 0);
+    margin-top: 50px;
+    height: 70px;
+}
+a:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+
+
+
+.kontakt-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+}
+
+input[type=text],  textarea , input[type=number]  {
+    width: 83%;
+    padding: 12px;
+    border: 1px solid #ffffff;
+    color: white;
+    background-color:  rgb(180, 0, 0);
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+.text1[type=text], .text[type=number]{
+    width: 40%;
+}
+
+input[type=submit]{
+    width: 85%;
+    padding: 12px;
+    border: 1px solid #ffffff;
+    color: white;
+    background-color: rgb(180, 0, 0);
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.kontakt-form-center{
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+
+}
+
+.kontakt-form{
+    background-color:rgb(180, 0, 0);
+    width: 80%;
+    border-radius: 15px;
+}
+
+.na-kontaktoni{
+    color: white;
+margin-top: 20px;
+font-size: 35px;
+
+}
+
+::placeholder{
+    color: white;
+}
+.map-center{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.footer{
+    padding: 00;
+    margin: 00;
+    background-color:  rgb(180, 0, 0);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.header{
+    color: white;
+}
